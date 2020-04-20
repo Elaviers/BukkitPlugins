@@ -1,0 +1,18 @@
+name: ElvPermissions
+author: Elaviers
+version: 1.0
+description: "Basic permissions"
+main: com.elaviers.permissions.ElvPermissions
+api-version: 1.15
+depend: [ElvCore]
+
+permissions:
+  elvpermissions.permission:
+    default: op
+
+commands:
+  permission:
+    description: Modify/View Permissions
+    aliases: [p, perm]
+    permission: elvpermissions.permission
+    usage: "§cUsage: /<command> <player> [[+|-|~][permission[:<ticks>]]]..."

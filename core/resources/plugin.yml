@@ -1,0 +1,5 @@
+name: ElvCore
+author: Elaviers
+version: 1.0
+main: com.elaviers.core.ElvCore
+api-version: 1.15

@@ -1,0 +1,26 @@
+name: ElvCommands
+author: Elaviers
+description: "Basic commands (/goto, /accept)"
+version: 1.0
+main: com.elaviers.commands.ElvCommands
+api-version: 1.15
+depend: [ElvCore]
+
+permissions:
+  elvcommands.accept:
+    default: true
+  elvcommands.goto:
+    default: true
+
+commands:
+  accept:
+    description: Accept a goto request
+    aliases: [a]
+    permission: elvcommands.accept
+    usage: "§cUsage: /<command> [player|*] [always|ask|default|never]"
+
+  goto:
+    description: Request tp to another player
+    aliases: [gt, g]
+    permission: elvcommands.goto
+    usage: "§cUsage: /<command> <player>"

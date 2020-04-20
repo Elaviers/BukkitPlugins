@@ -1,0 +1,5 @@
+#Amount of ticks to wait before removing death drops
+#Will be ignored if less than default item drop remove time
+#Note that currently the actual amount of ticks a drop will last for is actually
+#equivalent to the closest multiple of the item despawn rate greater than or equal to to this value
+deathDropLifetime: 24000
